@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeFun</title>
+    <!--link CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Swiper CSS-->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!--================ HEADER ================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo-fondo.png" alt="logo" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Anime Online</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Planes</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--================ MAIN ================-->
+    <main class="main">
+        <!--================ HOME ================-->
+        <section class="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <h1 class="home__title">LA MEJOR PLATARFORMA DE ANIME & MANGA</h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Consequatur aliquam labore vel. Id, asperiores molestias! Mollitia, non debitis? 
+                    </p>
+                    <a href="#" class="btn">Comieza La Prueba</a>
+                </div>
+
+                <img src="assets/img/home.png" alt="imagen portada" class="home__img">
+            </div>
+        </section>
+
+        <!--================ BRAND ================-->
+        <section class="brand">
+            <div class="swiper brand-swiper container">
+                <div class="swiper-wrapper">
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/logo-1.png" alt="logo-1" class="brand__logo">
+                    </div>
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/logo-2.png" alt="logo-2" class="brand__logo">
+                    </div>
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/logo-3.png" alt="logo-3" class="brand__logo">
+                    </div>
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/Spy_×_Family_Logo.png" alt="logo-4" class="brand__logo">
+                    </div>
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/Attack-on-Titan-Logo.png" alt="logo-5" class="brand__logo">
+                    </div>
+                    <div class="brand__item swiper-slide">
+                        <img src="assets/img/Demon--removebg-preview.png" alt="logo-6" class="brand__logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--================ SPECIAL ANIME ================-->
+        <section class="special__anime container section">
+            <h2 class="section__title">Especiales para ti</h2>
+            <div class="swiper anime-swiper">
+                <div class="swiper-wrapper">
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-1.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Pop Manga Mermaids</h3>
+                            <span class="anime__detail">2019, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-2.png" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Hunter x Hunter</h3>
+                            <span class="anime__detail">2022, Aventura</span>
+
+                            <p class="anime__rating" id="anime-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-3.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Attack Of Titan</h3>
+                            <span class="anime__detail">2020, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-4.png" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Dragon Ball Super</h3>
+                            <span class="anime__detail">2019, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-15.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Spy Family</h3>
+                            <span class="anime__detail">2018, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-14.jpg" alt="anime-6" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Demon Slayer</h3>
+                            <span class="anime__detail">2010, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--================ SUBCRIPTION ================-->
+        <section class="subcription">
+            <div class="subcription__container container grid">
+                <img src="assets/img/subscription.png" alt="subcription-image" class="subcription__img">
+                <div class="subcription__content">
+                    <h2 class="subcription__title">
+                        1 AÑO DE SUBCRIPCIÓN <br/>
+                        PAGANDO EL 50%
+                    </h2>
+                    <span class="subcription__date">
+                        *25 AGOSTO 2023
+                    </span>
+                    <p class="subcription__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis obcaecati magnam perspiciatis aspernatur sapiente praesentium illo quisquam velit accusamus neque numquam quod
+                    </p>
+                    <a href="" class="btn">Suscribete</a>
+                </div>
+            </div>
+        </section>
+
+        <!--================ POPULAR ANIME ================-->
+      <section class="popular__anime container section">
+        <h2 class="section__title">Los Mas Populares</h2>
+            <div class="swiper anime-swiper">
+                <div class="swiper-wrapper">
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-7.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Pop Manga Mermaids</h3>
+                            <span class="anime__detail">2019, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-8.png" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Anime de misterio</h3>
+                            <span class="anime__detail">2022, Aventura</span>
+
+                            <p class="anime__rating" id="anime-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-9.jpeg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Chainsaw Man English</h3>
+                            <span class="anime__detail">2020, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-10.jpeg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Persona 5 anime</h3>
+                            <span class="anime__detail">2022, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-11.jpeg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Spy Family</h3>
+                            <span class="anime__detail">2018, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-14.jpg" alt="anime-6" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Demon Slayer</h3>
+                            <span class="anime__detail">2010, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <!--================ TRENDING ANIME ================-->
+      <section class="trending__anime section">
+        <div class="anime-wrapper container">
+            <h2 class="section__title">Los Mas Vistos</h2>
+            <div class="swiper anime-swiper">
+                <div class="swiper-wrapper">
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-12.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Pop Manga Mermaids</h3>
+                            <span class="anime__detail">2019, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-13.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Anime de misterio</h3>
+                            <span class="anime__detail">2022, Aventura</span>
+
+                            <p class="anime__rating" id="anime-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-14.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Demon Slayer</h3>
+                            <span class="anime__detail">2020, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-15.jpg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Spy Family</h3>
+                            <span class="anime__detail">2022, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-11.jpeg" alt="anime-1" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Misterio Anime</h3>
+                            <span class="anime__detail">2018, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime__item swiper-slide">
+                        <img src="assets/img/anime-14.jpg" alt="anime-6" class="anime__img">
+
+                        <div class="anime__data">
+                            <h3 class="anime__title">Demon Slayer</h3>
+                            <span class="anime__detail">2010, Aventura</span>
+
+                            <p class="anime__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!--================ FOOTER ================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Animes Populares</h3>
+                <div class="footer__anime">
+                    <div class="footer__anime-item">
+                        <img src="assets/img/anime-1.jpg" alt="anime-image">
+                        <div class="item__data">
+                            <h4 class="item__title">
+                                Lorem Ipsum is simply dummy
+                            </h4>
+                            <span class="item__details">2022, Acción</span>
+                            <p class="item__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__anime-item">
+                        <img src="assets/img/anime-4.png" alt="anime-image">
+                        <div class="item__data">
+                            <h4 class="item__title">
+                                1960s fecha de lanzamiento
+                            </h4>
+                            <span class="item__details">2020, Acción</span>
+                            <p class="item__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__anime-item">
+                        <img src="assets/img/anime-14.jpg" alt="anime-image">
+                        <div class="item__data">
+                            <h4 class="item__title">
+                                Demon's Slayer
+                            </h4>
+                            <span class="item__details">2020, Acción</span>
+                            <p class="item__rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Mas Twitter</h3>
+
+                <div class="footer__tweet">
+                    <div class="tweet__item">
+                        <i class="fa-brands fa-twitter tweet__icon"></i>
+
+                        <div class="tweet__data">
+                            <h4 class="tweet__title">Lorem Ipsus is simply dummy</h4>
+                            <span class="tweet__details">2020, Acción</span>
+                        </div>
+                    </div>
+
+                    <div class="tweet__item">
+                        <i class="fa-brands fa-twitter tweet__icon"></i>
+
+                        <div class="tweet__data">
+                            <h4 class="tweet__title">Es lo mas genial que he visto en años</h4>
+                            <span class="tweet__details">2020, Acción</span>
+                        </div>
+                    </div>
+
+                    <div class="tweet__item">
+                        <i class="fa-brands fa-twitter tweet__icon"></i>
+
+                        <div class="tweet__data">
+                            <h4 class="tweet__title">Me encanta las historias de los protagonistas</h4>
+                            <span class="tweet__details">2020, Acción</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer__title">Instagram Feed</h3>
+
+                <div class="footer__instagram grid">
+                    <img src="assets/img/anime-8.png" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-6.jpeg" alt="anime-6" class="feed__img">
+
+                    <img src="assets/img/anime-9.jpeg" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-11.jpeg" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-13.jpg" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-3.jpg" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-15.jpg" alt="anime-8" class="feed__img">
+
+                    <img src="assets/img/anime-14.jpg" alt="anime-8" class="feed__img">
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Banner</h3>
+
+                <img src="assets/img/banner.png" alt="banner" class="banner__img">
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">Copyright &copy; Gerardo Ortiz 2023</p>
+        </div>
+    </footer>
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--Link JS-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
